@@ -1,0 +1,63 @@
+/*
+    Float korte hole jak e float kora hobe tar parents k overflow hidden korte hobe;
+*/
+body{
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+    font-size: 20px;
+    background: #0881d7;
+    padding: 20px;
+    color: #faf4fb;
+}
+.container{
+    margin: auto;
+    width: 1200px;
+    overflow: hidden;
+}
+.box1{
+    width:600px;  
+    background: khaki;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    line-height: 20px;
+}
+.box2{
+    width:600px;  
+    background: rgb(209, 207, 192);
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    line-height: 20px;
+}
+.box1 img{
+    width: 200px;
+}
+
+.box2 img{
+    width: 200px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    background: #0881d7;
+    color: #e5dada;
+    width: 80px;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+a:hover{
+    background: orange;
+    color: black;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background: #0881d7;
+    color: white;
+}
